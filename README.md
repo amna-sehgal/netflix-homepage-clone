@@ -32,7 +32,15 @@ s4.css
 3. Scroll and interact to get the Netflix vibe!
 
 ---
-
+## 📷Screenshots
+### Hero section
+(Screenshot 2025-08-05 130525.png)
+### Featured section
+(Screenshot 2025-08-05 130549.png)
+### Content
+(Screenshot 2025-08-05 130603.png)
+### Footer section
+(Screenshot 2025-08-05 130615.png)
 
 ## 🙋‍♀️ Author
 **Amna Sehgal**
