@@ -34,13 +34,13 @@ s4.css
 ---
 ## 📷Screenshots
 ### Hero section
-![Home](Screenshot 2025-08-05 130525.png)
+![Home](Screenshot%202025-08-05%20130525.png)
 ### Featured section
-![Featured](Screenshot 2025-08-05 130549.png)
+![Featured](Screenshot%202025-08-05%20130549.png)
 ### Content
-![Content](Screenshot 2025-08-05 130603.png)
+![Content](Screenshot%202025-08-05%20130603.png)
 ### Footer section
-![Footer](Screenshot 2025-08-05 130615.png)
+![Footer](Screenshot%202025-08-05%20130615.png)
 
 ## 🙋‍♀️ Author
 **Amna Sehgal**
