@@ -126,6 +126,8 @@
 }
 
 .sign input {
+    caret-color: white;
+    color: white;
     height: 56px;
     width: 320px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -197,7 +199,8 @@
     margin-bottom: 20px;
     padding: 10px 60px;
 }
-.wrap{
+
+.wrap {
     position: relative;
     overflow: hidden;
 }
@@ -211,16 +214,18 @@
     scroll-behavior: smooth;
     padding: 30px 100px;
 }
-.scroll::-webkit-scrollbar{
+
+.scroll::-webkit-scrollbar {
     display: none;
 }
-.lb{
+
+.lb {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     color: white;
     border: none;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
     padding: 10px;
     font-size: 20px;
@@ -228,13 +233,14 @@
     z-index: 5;
     left: 0;
 }
-.rb{
+
+.rb {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     color: white;
     border: none;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
     padding: 10px;
     font-size: 20px;
@@ -242,7 +248,8 @@
     z-index: 5;
     right: 0;
 }
-.ic{
+
+.ic {
     position: absolute;
     top: 155px;
     right: 110px;
@@ -254,7 +261,8 @@
     border-radius: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.ic1{
+
+.ic1 {
     position: absolute;
     top: 155px;
     right: 50px;
@@ -266,11 +274,13 @@
     border-radius: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.spacer{
+
+.spacer {
     height: 1px;
     min-width: 60px;
     flex-shrink: 0;
 }
+
 .card {
     background-image: url("Screenshot\ 2025-07-25\ 155437.png");
     background-size: cover;
@@ -281,6 +291,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card1 {
     background-image: url("Screenshot\ 2025-07-25\ 160334.png");
     background-size: cover;
@@ -291,6 +302,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card2 {
     background-image: url("Screenshot\ 2025-07-25\ 160223.png");
     background-size: cover;
@@ -301,6 +313,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card3 {
     background-image: url("Screenshot\ 2025-07-25\ 160111.png");
     background-size: cover;
@@ -311,6 +324,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card4 {
     background-image: url("Screenshot\ 2025-07-25\ 160021.png");
     background-size: cover;
@@ -321,6 +335,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card5 {
     background-image: url("Screenshot\ 2025-07-25\ 155902.png");
     background-size: cover;
@@ -331,6 +346,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card6 {
     background-image: url("Screenshot\ 2025-07-25\ 155834.png");
     background-size: cover;
@@ -341,6 +357,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card7 {
     background-image: url("Screenshot\ 2025-07-25\ 155706.png");
     background-size: cover;
@@ -351,6 +368,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card8 {
     background-image: url("Screenshot\ 2025-07-25\ 155618.png");
     background-size: cover;
@@ -361,6 +379,7 @@
     overflow: hidden;
     flex: 0 0 auto;
 }
+
 .card9 {
     background-image: url("Screenshot\ 2025-07-25\ 155506.png");
     background-size: cover;
@@ -373,9 +392,10 @@
 }
 
 .box3 {
-    height: 470px;
     width: 100%;
     background-color: black;
+    overflow: visible;
+    padding-bottom: 40px;
 }
 
 .h {
@@ -388,9 +408,11 @@
 
 .cardd {
     display: flex;
-    height: 400px;
-    width: 1000px;
-    margin-left: 140px;
+    justify-content: center;
+    width: 90%;
+    gap: 20px;
+    margin:auto;
+    height: auto;
     margin-top: 20px;
 }
 
@@ -419,99 +441,121 @@
     opacity: 0.8;
     margin-top: 20px;
 }
-.c1 i{
+
+.c1 i {
     font-size: 50px;
     color: white;
     margin-top: 40px;
     margin-left: 150px;
 }
-.co{
+
+.co {
     height: 200px;
     width: 200px;
 }
-.box4{
+
+.box4 {
     width: 100%;
     background-color: black;
     padding-bottom: 100px;
 }
-.ques{
-    width: 950px;
+
+.ques {
+    max-width: 950px;
+    width: 90%;
     background-color: black;
-    margin-left: 170px;
+    margin: 20px auto;
 }
-.item{
+
+.item {
     border-bottom: 1px solid #333;
     margin-bottom: 10px;
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.q{
+
+.q {
     cursor: pointer;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 84px;
-    width: 950px;
+    width: 100%;
     background-color: rgb(52, 50, 50);
     margin-top: 10px;
     transition: background-color 0.3s ease;
 }
-.ques p{
+
+.ques p {
     font-family: "TikTok sans", "sans-serif";
     font-size: 25px;
     color: white;
     margin-left: 20px;
     margin-top: 20px;
 }
-.ques i{
+
+.ques i {
     cursor: pointer;
     color: white;
     font-size: 30px;
     margin-left: 500px;
     transition: transform 0.6s ease;
 }
-.answer{
+
+.answer {
     max-height: 0;
+    width: 100%;
     overflow: hidden;
     background-color: rgb(52, 50, 50);
     transition: max-height 0.5s ease;
     padding: 0 20px;
+    box-sizing: border-box;
 }
-.answer p{
+
+.answer p {
     color: white;
     font-size: 25px;
     font-family: "TikTok sans", "sans-serif";
     padding: 15px 0;
 }
-.item.active .answer{
+
+.item.active .answer {
     max-height: 500px;
 }
-.item.active .q i{
+
+.item.active .q i {
     transform: rotate(45deg);
 }
-.con{
+
+.con {
     height: 84px;
     width: 380px;
 }
-.q:hover{
+
+.q:hover {
     background-color: rgb(73, 71, 71);
 }
-.m{
+
+.m {
     height: 170px;
     width: 100%;
     background-color: black;
     margin-top: -3%;
 }
-.box5{
+
+.box5 {
     height: 170px;
     width: 900px;
     background-color: black;
     margin-left: 180px;
 }
-.box5 p{
+
+.box5 p {
     color: white;
     font-size: 16px;
 }
-.button{
+
+.button {
     display: flex;
     align-items: center;
     height: 90px;
@@ -519,7 +563,10 @@
     background-color: black;
     margin-top: 20px;
 }
-.button input{
+
+.button input {
+    caret-color: white;
+    color: white;
     height: 51px;
     width: 500px;
     border-radius: 5px;
@@ -529,7 +576,8 @@
     border: 1px solid rgba(255, 255, 255, 0.493);
     margin-top: -3%;
 }
-.b2{
+
+.b2 {
     cursor: pointer;
     background-color: #e50b14;
     font-size: 23px;
@@ -543,15 +591,18 @@
     margin-left: 5px;
     transition: background-color 0.3s ease;
 }
+
 .b2:hover {
     background-color: #e50b129e;
 }
-.box6{
+
+.box6 {
     height: 240px;
     width: 100%;
     background-color: black;
 }
-.support{
+
+.support {
     display: flex;
     height: 180px;
     width: 900px;
@@ -559,28 +610,33 @@
     margin-left: 150px;
     margin-top: 30px;
 }
-.s1{
+
+.s1 {
     height: 180px;
     width: 200px;
     margin-left: 20px;
     background-color: black;
 }
-.box6 p{
+
+.box6 p {
     color: rgba(255, 255, 255, 0.641);
     font-family: "TikTok sans", "sans-serif";
     margin-left: 20px;
 }
-.s1 p{
+
+.s1 p {
     cursor: pointer;
     line-height: 25px;
 }
-.la{
+
+.la {
     background-color: black;
     width: 100%;
     height: 50px;
     margin-top: -3%;
 }
-.i1{
+
+.i1 {
     color: white;
     display: flex;
     height: 32px;
@@ -591,25 +647,59 @@
     border-radius: 5px;
     margin-left: 25px;
 }
-.i1 i{
+
+.i1 i {
     margin-top: 5px;
 }
-.footer{
+
+.footer {
     font-family: "TikTok sans", "sans-serif";
     color: rgba(255, 255, 255, 0.584);
     background-color: black;
     padding: 10px 25px;
 
 }
-.f1{
+
+.f1 {
     cursor: pointer;
     font-family: "TikTok sans", "sans-serif";
     color: rgba(255, 255, 255, 0.584);
     background-color: black;
     padding: 10px 25px;
 }
-.l{
+
+.l {
     height: 50px;
     width: 100%;
     background-color: black;
+}
+
+@media (max-width: 600px) {
+    .main, .sign, .cardd, .ques, .box5, .support {
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+
+    .cardd {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sign {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        flex-direction: column;
+    }
+
+    .q {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .q i {
+        margin-left: auto;
+    }
 }
