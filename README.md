@@ -21,7 +21,7 @@ This is a simple one-page website built using **HTML, CSS, and a bit of JavaScri
 ---
 
 ## 📂 Folder Structure
-netflix.html
+index.html
 s4.css
 (images if any)
 
